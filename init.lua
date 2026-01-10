@@ -1,4 +1,4 @@
-require("config.lazy")
 require("aeroglory")
+require("config.lazy")
 
 
