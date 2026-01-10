@@ -5,8 +5,13 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 
-vim.opt.foldmethod = marker
+--vim.opt.foldmethod = marker
 
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
 
-vim.g.mapleader = "<Space>"
+vim.g.mapleader = " "
+
+vim.keymap.set('n', '<leader>h', '<C-w>h') -- Left
+vim.keymap.set('n', '<leader>j', '<C-w>j') -- Down
+vim.keymap.set('n', '<leader>k', '<C-w>k') -- Up
+vim.keymap.set('n', '<leader>l', '<C-w>l') -- Right
