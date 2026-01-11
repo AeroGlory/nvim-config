@@ -10,6 +10,9 @@ return {
       "MunifTanjim/nui.nvim",
       "nvim-tree/nvim-web-devicons",
     },
+	config = function()
+		vim.keymap.set('n', '<leader>t', '<Cmd>Neotree toggle<CR>')
+	end
   },
   {
     "antosha417/nvim-lsp-file-operations",
