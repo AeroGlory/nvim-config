@@ -5,8 +5,6 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 
---vim.opt.foldmethod = marker
-
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
 
 vim.g.mapleader = " "
