@@ -13,3 +13,5 @@ vim.keymap.set('n', '<leader>h', '<C-w>h') -- Left
 vim.keymap.set('n', '<leader>j', '<C-w>j') -- Down
 vim.keymap.set('n', '<leader>k', '<C-w>k') -- Up
 vim.keymap.set('n', '<leader>l', '<C-w>l') -- Right
+vim.keymap.set('n',"<C-d>", "<C-d>zz")
+vim.keymap.set('n', "<C-u>", "<C-u>zz")
