@@ -25,5 +25,6 @@ return {
   end,
   config = function()
     -- Your LSP settings here
+   	vim.lsp.enable('roslyn')
   end,
 }
