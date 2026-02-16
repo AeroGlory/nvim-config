@@ -9,7 +9,7 @@ config = function()
         dark = "mocha",
     },
     float = {
-        transparent = true, -- enable transparent floating windows
+        transparent = false,-- enable transparent floating windows
     },
     auto_integrations = true,
 })
