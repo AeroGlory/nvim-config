@@ -25,3 +25,6 @@ vim.keymap.set("n", "<leader>p", [["+p]])
 
 --For AutoSession.nvim
 vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
+
+--Rust makes this inflate faster than a furry with a strange fetish
+vim.lsp.set_log_level("off")
